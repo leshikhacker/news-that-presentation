@@ -39,7 +39,10 @@
 	</header>
 
 	<section class="slide cover" id="cover">
-		<img src="pictures/1/logo.svg" />
+		<figure>
+			<img src="pictures/1/logo.svg" />
+		</figure>
+
 		<h2>Ви - це новини</h2>
 		<figure>
 		</figure>
@@ -83,6 +86,37 @@
 		<figure>
 			<img class="cover" src="pictures/3/site.png">
 		</figure>
+	</section>
+
+	<section class="slide" id="categories">
+		<img class="c-popular" src="pictures/categories/01.png" alt="">
+		<img class="c-cars" src="pictures/categories/02.png" alt="">
+		<img class="c-culture" src="pictures/categories/03.png" alt="">
+		<img class="c-education" src="pictures/categories/04.png" alt="">
+		<img class="c-contacts" src="pictures/categories/05.png" alt="">
+		<style>
+		#categories {
+			padding: 0;
+		}
+		#categories img {
+			position: relative;
+		}
+		#categories .c-cars {
+	    	left: -100px;
+		}
+		#categories .c-culture {
+			top: 0;
+		    position: absolute;
+		    right: 0;
+		}
+		#categories .c-education {
+			top: -40px;
+			margin-left: 100px;
+		}
+		#categories .c-contacts {
+			top: -40px;
+		}
+		</style>
 	</section>
 
 	<section class="slide cover">
